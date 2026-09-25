@@ -1,0 +1,62 @@
+<html>
+<head>
+     <link rel="stylesheet" href="..style.css">
+<style>
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-item {
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+/* Make a one column-layout instead of three-column layout */
+@media (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+.container div {
+  background-color: #202db5;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="card">
+  <img src="../images/migoreng.jpg" width="500">
+  <div class="container">
+    <h4><b>mie goreng</b></h4>
+    <p>14.000</p>
+  </div>
+</div>
+
+  <div class="card">
+  <img src="../images/nasgor.jpg" width="500">
+  <div class="container">
+    <h4><b>Nasi goreng</b></h4>
+    <p>15.000</p>
+  </div>
+</div>
+
+   <div class="card">
+  <img src="../images/nasiayam.jpg" width="500"
+  <div class="container">
+    <h4><b>Ayam geprek</b></h4>
+    <p>16.000</p>
+  </div>
+</div>
+</div>
+
+</body>
+</html>
